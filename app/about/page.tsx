@@ -4,12 +4,12 @@ import { ShieldCheck, Zap, HeartHandshake, Award, Users, CheckCircle2, MessageSq
 import { getWhatsAppLink } from "@/lib/whatsapp";
 
 export const metadata = {
-  title: "About Us | Bet Vault v10 PRO Exchange Hub",
-  description: "Learn why Bet Vault v10 was established to bring 100% financial clarity, instant payouts, and zero-hassle betting to Indian sports fans.",
+  title: "About Us | BetVault Exchange Hub",
+  description: "Learn why BetVault was established to bring 100% financial clarity, instant payouts, and zero-hassle betting to Indian sports fans.",
 };
 
 export default function AboutPage() {
-  const waLink = getWhatsAppLink("Hi Bet Vault v10 team, I read your About page and want to join the VIP betting hub.");
+  const waLink = getWhatsAppLink("Hi BetVault team, I read your About page and want to join the VIP betting hub.");
 
   return (
     <div className="py-16 sm:py-24 px-4 sm:px-6 relative amethyst-bg-mesh space-y-20">
@@ -26,7 +26,7 @@ export default function AboutPage() {
         </h1>
 
         <p className="text-slate-200 text-base sm:text-lg max-w-2xl mx-auto font-normal">
-          We built Bet Vault v10 because we were tired of watching genuine punters get scammed by shady Telegram bookies who delay payouts or disappear during peak IPL matches.
+          We built BetVault because we were tired of watching genuine punters get scammed by shady Telegram bookies who delay payouts or disappear during peak IPL matches.
         </p>
       </div>
 
@@ -64,7 +64,7 @@ export default function AboutPage() {
           </p>
 
           <p>
-            That is why we built <strong>Bet Vault v10 PRO</strong>. We established direct partnerships with master exchange servers (Diamond Exchange, SkyExchange, Lotus365, LaserBook) and automated banking validation so payouts land in under 5 minutes without manual delays.
+            That is why we built <strong>BetVault</strong>. We established direct partnerships with master exchange servers (Diamond Exchange, SkyExchange, Lotus365, LaserBook) and automated banking validation so payouts land in under 5 minutes without manual delays.
           </p>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-4 border-t border-slate-800">

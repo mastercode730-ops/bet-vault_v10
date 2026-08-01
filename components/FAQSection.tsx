@@ -17,7 +17,7 @@ export default function FAQSection() {
       a: "You can start your master exchange betting ID with an initial deposit as low as ₹500. We recommend testing a small deposit and test withdrawal right after.",
     },
     {
-      q: "Which master exchanges are supported on Bet Vault v10?",
+      q: "Which master exchanges are supported on BetVault?",
       a: "We provide verified, direct master panel IDs for Diamond Exchange, SkyExchange, Lotus365, and LaserBook with zero price manipulation and live lines.",
     },
     {
@@ -30,7 +30,7 @@ export default function FAQSection() {
     },
   ];
 
-  const waLink = getWhatsAppLink("Hi Bet Vault v10 team, I have a question about betting IDs.");
+  const waLink = getWhatsAppLink("Hi BetVault team, I have a question about betting IDs.");
 
   return (
     <section className="py-20 px-4 sm:px-6 relative amethyst-bg-mesh">

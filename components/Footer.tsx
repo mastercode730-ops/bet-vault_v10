@@ -4,7 +4,7 @@ import { Shield, Zap, Lock } from "lucide-react";
 import { getWhatsAppLink } from "@/lib/whatsapp";
 
 export default function Footer() {
-  const waLink = getWhatsAppLink("Hello Bet Vault v10, I want to create a new online betting ID.");
+  const waLink = getWhatsAppLink("Hello BetVault, I want to create a new online betting ID.");
 
   return (
     <footer className="bg-amethyst-950 border-t border-purple-500/20 text-slate-400 py-16 px-4 sm:px-6 relative z-10">
@@ -95,7 +95,7 @@ export default function Footer() {
 
         {/* Disclaimer & Copyright */}
         <div className="pt-8 border-t border-purple-500/20 text-center sm:flex sm:items-center sm:justify-between gap-4 text-[11px] text-slate-500 font-normal">
-          <p>© 2026 Bet Vault v10. All rights reserved. Play Responsibly. 18+ Only.</p>
+          <p>© 2026 BetVault. All rights reserved. Play Responsibly. 18+ Only.</p>
           <div className="flex items-center justify-center gap-4 mt-2 sm:mt-0 font-medium flex-wrap">
             <a href="/sitemap.xml" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-300 transition-colors">Sitemap</a>
             <span>•</span>

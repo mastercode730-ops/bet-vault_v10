@@ -10,7 +10,7 @@ export default function Hero() {
   const [selectedAmount, setSelectedAmount] = useState("₹1,000");
   const [selectedExchange, setSelectedExchange] = useState("Diamond Exchange");
 
-  const customMessage = `Hello Bet Vault v10! I want to set up my betting ID right now.\nSport: ${selectedSport}\nDeposit: ${selectedAmount}\nExchange: ${selectedExchange}`;
+  const customMessage = `Hello BetVault! I want to set up my betting ID right now.\nSport: ${selectedSport}\nDeposit: ${selectedAmount}\nExchange: ${selectedExchange}`;
   const whatsappUrl = getWhatsAppLink(customMessage);
 
   return (
@@ -27,7 +27,7 @@ export default function Hero() {
           
           <div className="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-cyan-500/10 border border-cyan-400/40 text-cyan-300 text-xs font-mono font-black uppercase tracking-wider">
             <Sparkles className="w-4 h-4 text-cyan-400" />
-            <span>BET VAULT v10 PRO — NEXT-GEN EXCHANGE HUB</span>
+            <span>BetVault — NEXT-GEN EXCHANGE HUB</span>
           </div>
 
           <h1 className="font-display font-black text-3xl sm:text-5xl lg:text-6xl text-white leading-[1.1] tracking-tight">
@@ -36,7 +36,7 @@ export default function Hero() {
           </h1>
 
           <p className="text-slate-200 text-base sm:text-lg leading-relaxed max-w-2xl font-normal">
-            Let's cut through the noise — sports betting should be exciting, transparent, and completely stress-free. We built Bet Vault v10 so you can create a verified master exchange ID in 2 minutes and withdraw your winnings straight to your GPay, Paytm, or UPI within 5 minutes flat.
+            Let's cut through the noise — sports betting should be exciting, transparent, and completely stress-free. We built BetVault so you can create a verified master exchange ID in 2 minutes and withdraw your winnings straight to your GPay, Paytm, or UPI within 5 minutes flat.
           </p>
 
           {/* Featured Host Spotlight Card */}
