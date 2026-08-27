@@ -3,12 +3,24 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { getWhatsAppLink } from "@/lib/whatsapp";
-import { Shield, Zap, Menu, X, MessageSquare, Sparkles, Activity, PhoneCall, Globe } from "lucide-react";
+import {
+  Shield,
+  Zap,
+  Menu,
+  X,
+  MessageSquare,
+  Sparkles,
+  Activity,
+  PhoneCall,
+  Globe,
+} from "lucide-react";
 
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
-  const waLink = getWhatsAppLink("Hey BetVault, I want to create my instant betting ID now.");
+  const waLink = getWhatsAppLink(
+    "Hey BetVault, I want to create my instant betting ID now.",
+  );
 
   useEffect(() => {
     const handleScroll = () => {
@@ -24,7 +36,6 @@ export default function Navbar() {
 
   return (
     <header className="sticky top-0 z-50 transition-all duration-300">
-      
       {/* Top Announcement Bar */}
       <div className="bg-amethyst-950/90 border-b border-cyan-500/20 py-1.5 px-4 text-xs">
         <div className="max-w-7xl mx-auto flex items-center justify-between font-mono">
@@ -43,7 +54,9 @@ export default function Navbar() {
           </div>
 
           <div className="flex items-center gap-4 text-slate-300">
-            <span className="hidden md:inline text-[11px] text-slate-400">Official Master Exchange Partner</span>
+            <span className="hidden md:inline text-[11px] text-slate-400">
+              Official Master Exchange Partner
+            </span>
             <a
               href={waLink}
               target="_blank"
@@ -58,11 +71,14 @@ export default function Navbar() {
       </div>
 
       {/* Main Floating Curved Dock Navbar */}
-      <div className={`px-4 sm:px-6 py-3 transition-all ${
-        scrolled ? "glass-dock-nav py-2.5 shadow-2xl" : "bg-amethyst-950/80 backdrop-blur-xl border-b border-purple-500/10"
-      }`}>
+      <div
+        className={`px-4 sm:px-6 py-3 transition-all ${
+          scrolled
+            ? "glass-dock-nav py-2.5 shadow-2xl"
+            : "bg-amethyst-950/80 backdrop-blur-xl border-b border-purple-500/10"
+        }`}
+      >
         <div className="max-w-7xl mx-auto flex items-center justify-between">
-          
           {/* Brand Logo with Holographic Gradient */}
           <Link href="/" className="flex items-center gap-3 group">
             <div className="w-11 h-11 rounded-2xl bg-gradient-cyan-magenta p-0.5 shadow-lg shadow-cyan-500/20 group-hover:scale-105 transition-all">
@@ -90,25 +106,52 @@ export default function Navbar() {
             <Link href="/" className="hover:text-cyan-300 transition-colors">
               Home
             </Link>
-            <Link href="/about" className="hover:text-cyan-300 transition-colors">
+            <Link
+              href="/about"
+              className="hover:text-cyan-300 transition-colors"
+            >
               About Us
             </Link>
-            <a href="/#markets" className="hover:text-cyan-300 transition-colors">
+            <a
+              href="/#markets"
+              className="hover:text-cyan-300 transition-colors"
+            >
               Sports Markets
             </a>
-            <a href="/#calculator" className="hover:text-cyan-300 transition-colors">
+            <a
+              href="/#calculator"
+              className="hover:text-cyan-300 transition-colors"
+            >
               Odds Calc
             </a>
-            <Link href="/blog" className="hover:text-cyan-300 transition-colors">
+            <Link
+              href="/blog"
+              className="hover:text-cyan-300 transition-colors"
+            >
               Blog Hub
             </Link>
-            <Link href="/contact" className="hover:text-cyan-300 transition-colors">
+            <Link
+              href="/contact"
+              className="hover:text-cyan-300 transition-colors"
+            >
               Contact VIP
             </Link>
           </nav>
 
-          {/* WhatsApp Action CTA */}
-          <div className="hidden md:flex items-center gap-3">
+          {/* WhatsApp Action CTA & Auth Links */}
+          <div className="hidden md:flex items-center gap-4">
+            <a
+              href="https://www.Gabbar247.vip"
+              className="text-slate-200 hover:text-cyan-300 font-bold text-sm transition-colors"
+            >
+              Login
+            </a>
+            <a
+              href="https://www.Gabbar247.vip"
+              className="text-slate-200 hover:text-cyan-300 font-bold text-sm transition-colors"
+            >
+              Register
+            </a>
             <a
               href={waLink}
               target="_blank"
@@ -126,7 +169,11 @@ export default function Navbar() {
             className="md:hidden p-2.5 rounded-xl bg-amethyst-900 border border-cyan-500/30 text-slate-200 hover:text-cyan-300 transition-colors"
             aria-label="Toggle Navigation Menu"
           >
-            {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+            {mobileMenuOpen ? (
+              <X className="w-6 h-6" />
+            ) : (
+              <Menu className="w-6 h-6" />
+            )}
           </button>
         </div>
 
@@ -135,7 +182,9 @@ export default function Navbar() {
           <div className="md:hidden mt-3 pt-4 border-t border-purple-500/20 px-3 pb-5 space-y-3 bg-amethyst-950/95 backdrop-blur-2xl rounded-2xl p-4 border border-cyan-500/30">
             <div className="flex items-center gap-2 px-3 py-2 rounded-xl bg-amethyst-900 text-xs mb-2 border border-slate-800 font-mono">
               <span className="h-2 w-2 rounded-full bg-cyan-400 animate-pulse"></span>
-              <span className="text-slate-200">5,940 Bettors Online Right Now</span>
+              <span className="text-slate-200">
+                5,940 Bettors Online Right Now
+              </span>
             </div>
 
             <Link
@@ -180,6 +229,21 @@ export default function Navbar() {
             >
               Contact VIP Support
             </Link>
+
+            <div className="grid grid-cols-2 gap-3 mt-4">
+              <a
+                href="https://www.Gabbar247.vip"
+                className="py-2.5 rounded-xl text-slate-200 border border-slate-700 bg-amethyst-900/50 hover:bg-amethyst-900 font-bold text-sm flex justify-center items-center"
+              >
+                Login
+              </a>
+              <a
+                href="https://www.Gabbar247.vip"
+                className="py-2.5 rounded-xl text-slate-200 border border-slate-700 bg-amethyst-900/50 hover:bg-amethyst-900 font-bold text-sm flex justify-center items-center"
+              >
+                Register
+              </a>
+            </div>
 
             <a
               href={waLink}
