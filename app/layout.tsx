@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   description: "Create your instant online sports betting ID for IPL, Cricket, Football & Live Casino in 2 minutes. 5-minute instant UPI withdrawals and 24/7 human WhatsApp support.",
   keywords: ["Betting ID", "Cricket Betting ID", "IPL Betting 2026", "Diamond Exchange ID", "SkyExchange ID", "Instant UPI Withdrawal"],
   verification: {
-    google: "oz5J6k_pWsXO2QsldryU7DxFofsW9_2Fq876etVUuDY",
+    google: "cMQV48otbl1KCDV0rc8NsQuqg6xQLBwPRbmCsdZlEGA",
   },
 };
 
