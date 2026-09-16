@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState } from "react";
 import Image from "next/image";
@@ -129,7 +129,7 @@ export default function ContactForm() {
                     onChange={(e) => setQueryType(e.target.value)}
                     className="w-full bg-amethyst-900 border border-slate-800 rounded-xl p-3 text-xs text-slate-200 focus:border-cyan-400 outline-none font-medium"
                   >
-                    <option value="New ID Creation">New Betting ID Setup (IPL & Exchange)</option>
+                    <option value="New ID Creation">New ID Setup (IPL & Exchange)</option>
                     <option value="Instant Deposit">Deposit Recharge Query</option>
                     <option value="Instant Withdrawal">Withdrawal Clearance Request</option>
                     <option value="Odds Query">Match Odds & Session Query</option>

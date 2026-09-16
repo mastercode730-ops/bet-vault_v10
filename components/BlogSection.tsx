@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import Image from "next/image";
 import Link from "next/link";
@@ -18,13 +18,13 @@ export default function BlogSection() {
           <div className="space-y-3">
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-cyan-500/10 border border-cyan-400/30 text-cyan-300 text-xs font-mono font-black uppercase">
               <BookOpen className="w-4 h-4 text-cyan-400" />
-              <span>SPORTS BETTING INSIGHTS & GUIDES</span>
+              <span>SPORTS INSIGHTS & GUIDES</span>
             </div>
             <h2 className="font-display font-black text-3xl sm:text-4xl text-white tracking-tight">
               BetVault Strategy & Knowledge Hub
             </h2>
             <p className="text-slate-300 text-base max-w-2xl font-normal">
-              Practical guides on bankroll allocation, live session odds analysis, safety checks, and IPL betting strategies written by sharp analysts.
+              Practical guides on bankroll allocation, live session odds analysis, safety checks, and IPL strategies written by sharp analysts.
             </p>
           </div>
 
@@ -63,7 +63,7 @@ export default function BlogSection() {
                   <div className="flex items-center gap-1.5 text-xs text-slate-400 font-mono">
                     <Clock className="w-3.5 h-3.5 text-cyan-400" />
                     <span>{post.readTime}</span>
-                    <span className="text-slate-700">•</span>
+                    <span className="text-slate-700">â€¢</span>
                     <span>{post.date}</span>
                   </div>
 

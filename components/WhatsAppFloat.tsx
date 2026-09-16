@@ -1,10 +1,10 @@
-"use client";
+﻿"use client";
 
 import { MessageSquare } from "lucide-react";
 import { getWhatsAppLink } from "@/lib/whatsapp";
 
 export default function WhatsAppFloat() {
-  const waLink = getWhatsAppLink("Hi BetVault, I am on your website and want to create my instant betting ID right now.");
+  const waLink = getWhatsAppLink("Hi BetVault, I am on your website and want to create my instant ID right now.");
 
   return (
     <div className="fixed bottom-6 right-6 z-50 flex items-center gap-3">

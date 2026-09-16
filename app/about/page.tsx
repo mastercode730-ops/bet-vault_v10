@@ -1,15 +1,15 @@
-import Image from "next/image";
+﻿import Image from "next/image";
 import Link from "next/link";
 import { ShieldCheck, Zap, HeartHandshake, Award, Users, CheckCircle2, MessageSquare } from "lucide-react";
 import { getWhatsAppLink } from "@/lib/whatsapp";
 
 export const metadata = {
   title: "About Us | BetVault Exchange Hub",
-  description: "Learn why BetVault was established to bring 100% financial clarity, instant payouts, and zero-hassle betting to Indian sports fans.",
+  description: "Learn why BetVault was established to bring 100% financial clarity, instant payouts, and zero-hassle to Indian sports fans.",
 };
 
 export default function AboutPage() {
-  const waLink = getWhatsAppLink("Hi BetVault team, I read your About page and want to join the VIP betting hub.");
+  const waLink = getWhatsAppLink("Hi BetVault team, I read your About page and want to join the VIP hub.");
 
   return (
     <div className="py-16 sm:py-24 px-4 sm:px-6 relative amethyst-bg-mesh space-y-20">
@@ -22,7 +22,7 @@ export default function AboutPage() {
         </div>
 
         <h1 className="font-display font-black text-4xl sm:text-5xl text-white tracking-tight">
-          Restoring Absolute Trust in <span className="text-gradient-neon">Indian Sports Betting</span>
+          Restoring Absolute Trust in <span className="text-gradient-neon">Indian Sports </span>
         </h1>
 
         <p className="text-slate-200 text-base sm:text-lg max-w-2xl mx-auto font-normal">
@@ -60,7 +60,7 @@ export default function AboutPage() {
           </h2>
 
           <p>
-            When we first started betting on IPL matches seven years ago, the environment was chaotic. You had to message unverified WhatsApp numbers, deposit cash into random accounts, and pray that the bookie wouldn't block your number after you won a big bet.
+            When we first started on IPL matches seven years ago, the environment was chaotic. You had to message unverified WhatsApp numbers, deposit cash into random accounts, and pray that the bookie wouldn't block your number after you won a big bet.
           </p>
 
           <p>
@@ -74,7 +74,7 @@ export default function AboutPage() {
             </div>
             <div className="flex items-center gap-3 p-3.5 rounded-2xl bg-amethyst-900 border border-slate-800">
               <CheckCircle2 className="w-5 h-5 text-neonMagenta-400 shrink-0" />
-              <span className="text-xs font-bold text-white">₹15+ Crore Payouts Cleared</span>
+              <span className="text-xs font-bold text-white">â‚¹15+ Crore Payouts Cleared</span>
             </div>
           </div>
 

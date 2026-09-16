@@ -33,7 +33,7 @@ export default async function BlogPostPage({ params }: Props) {
   }
 
   const relatedPosts = BLOG_POSTS.filter((p) => p.slug !== post.slug).slice(0, 2);
-  const waArticleLink = getWhatsAppLink(`Hi BetVault, I read your article "${post.title}" and would like to setup an instant betting ID.`);
+  const waArticleLink = getWhatsAppLink(`Hi BetVault, I read your article "${post.title}" and would like to setup an instant ID.`);
 
   return (
     <article className="py-16 sm:py-24 px-4 sm:px-6 relative amethyst-bg-mesh">
@@ -135,7 +135,7 @@ export default async function BlogPostPage({ params }: Props) {
               className="inline-flex btn-neon-cyan px-6 py-3.5 rounded-2xl text-xs font-black items-center gap-2 uppercase tracking-wide"
             >
               <MessageSquare className="w-4 h-4 fill-amethyst-950" />
-              <span>Open Betting ID on WhatsApp</span>
+              <span>Open ID on WhatsApp</span>
             </a>
           </div>
         </div>

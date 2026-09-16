@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState } from "react";
 import Image from "next/image";
@@ -7,10 +7,10 @@ import { ShieldCheck, Zap, ArrowRight, Lock, CheckCircle2, Trophy, Clock, Sparkl
 
 export default function Hero() {
   const [selectedSport, setSelectedSport] = useState("Cricket IPL");
-  const [selectedAmount, setSelectedAmount] = useState("₹1,000");
+  const [selectedAmount, setSelectedAmount] = useState("â‚¹1,000");
   const [selectedExchange, setSelectedExchange] = useState("Diamond Exchange");
 
-  const customMessage = `Hello BetVault! I want to set up my betting ID right now.\nSport: ${selectedSport}\nDeposit: ${selectedAmount}\nExchange: ${selectedExchange}`;
+  const customMessage = `Hello BetVault! I want to set up my ID right now.\nSport: ${selectedSport}\nDeposit: ${selectedAmount}\nExchange: ${selectedExchange}`;
   const whatsappUrl = getWhatsAppLink(customMessage);
 
   return (
@@ -27,7 +27,7 @@ export default function Hero() {
           
           <div className="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-cyan-500/10 border border-cyan-400/40 text-cyan-300 text-xs font-mono font-black uppercase tracking-wider">
             <Sparkles className="w-4 h-4 text-cyan-400" />
-            <span>BetVault — NEXT-GEN EXCHANGE HUB</span>
+            <span>BetVault â€” NEXT-GEN EXCHANGE HUB</span>
           </div>
 
           <h1 className="font-display font-black text-3xl sm:text-5xl lg:text-6xl text-white leading-[1.1] tracking-tight">
@@ -36,7 +36,7 @@ export default function Hero() {
           </h1>
 
           <p className="text-slate-200 text-base sm:text-lg leading-relaxed max-w-2xl font-normal">
-            Let's cut through the noise — sports betting should be exciting, transparent, and completely stress-free. We built BetVault so you can create a verified master exchange ID in 2 minutes and withdraw your winnings straight to your GPay, Paytm, or UPI within 5 minutes flat.
+            Let's cut through the noise â€” sports should be exciting, transparent, and completely stress-free. We built BetVault so you can create a verified master exchange ID in 2 minutes and withdraw your winnings straight to your GPay, Paytm, or UPI within 5 minutes flat.
           </p>
 
           {/* Featured Host Spotlight Card */}
@@ -57,10 +57,10 @@ export default function Hero() {
                 <span className="text-xs font-mono font-bold text-slate-300 ml-1">5.0 VIP Rating</span>
               </div>
               <h4 className="text-sm font-bold text-white">
-                "Instant payouts 24 hours a day — no delays, no excuses."
+                "Instant payouts 24 hours a day â€” no delays, no excuses."
               </h4>
               <p className="text-xs text-slate-400">
-                — <span className="text-cyan-300 font-semibold">Tanya Kapoor</span>, Lead Risk Manager & VIP Host
+                â€” <span className="text-cyan-300 font-semibold">Tanya Kapoor</span>, Lead Risk Manager & VIP Host
               </p>
             </div>
           </div>
@@ -115,7 +115,7 @@ export default function Hero() {
               href="#markets"
               className="btn-outline-neon px-6 py-4 rounded-2xl text-sm font-bold flex items-center justify-center gap-2"
             >
-              Explore Live Sports Odds ↓
+              Explore Live Sports Odds â†“
             </a>
           </div>
 
@@ -168,7 +168,7 @@ export default function Hero() {
                 2. Choose Deposit Tier:
               </label>
               <div className="grid grid-cols-4 gap-1.5">
-                {["₹500", "₹1,000", "₹5,000", "₹10,000+"].map((amt) => (
+                {["â‚¹500", "â‚¹1,000", "â‚¹5,000", "â‚¹10,000+"].map((amt) => (
                   <button
                     key={amt}
                     onClick={() => setSelectedAmount(amt)}
@@ -205,7 +205,7 @@ export default function Hero() {
             <div className="p-4 rounded-xl bg-amethyst-950 border border-slate-800 space-y-2">
               <div className="flex justify-between items-center text-[11px] text-slate-400 font-mono">
                 <span>ESTIMATED SETUP TIME</span>
-                <span className="text-cyan-400 font-bold">⚡ ~2 Mins via WhatsApp</span>
+                <span className="text-cyan-400 font-bold">âš¡ ~2 Mins via WhatsApp</span>
               </div>
               <div className="flex justify-between items-center text-xs font-bold text-slate-200">
                 <span>Welcome Bonus:</span>

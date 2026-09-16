@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState } from "react";
 import Image from "next/image";
@@ -32,11 +32,11 @@ export default function BlogListingPage() {
         </div>
 
         <h1 className="font-display font-black text-4xl sm:text-5xl text-white tracking-tight">
-          Sports Betting Strategy <span className="text-gradient-neon">& Insights</span>
+          Sports Strategy <span className="text-gradient-neon">& Insights</span>
         </h1>
 
         <p className="text-slate-300 text-base sm:text-lg max-w-2xl mx-auto font-normal">
-          Honest, humanized strategy guides written by professional sports analysts and risk advisors. Zero fluff, real betting intelligence.
+          Honest, humanized strategy guides written by professional sports analysts and risk advisors. Zero fluff, real intelligence.
         </p>
       </div>
 
@@ -114,7 +114,7 @@ export default function BlogListingPage() {
                     <div className="flex items-center gap-1.5 text-xs text-slate-400 font-mono">
                       <Clock className="w-3.5 h-3.5 text-cyan-400" />
                       <span>{post.readTime}</span>
-                      <span className="text-slate-700">•</span>
+                      <span className="text-slate-700">â€¢</span>
                       <span>{post.date}</span>
                     </div>
 

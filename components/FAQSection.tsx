@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState } from "react";
 import { HelpCircle, ChevronDown, ChevronUp, MessageSquare } from "lucide-react";
@@ -14,7 +14,7 @@ export default function FAQSection() {
     },
     {
       q: "What is the minimum deposit needed to open a new ID?",
-      a: "You can start your master exchange betting ID with an initial deposit as low as ₹500. We recommend testing a small deposit and test withdrawal right after.",
+      a: "You can start your master exchange ID with an initial deposit as low as â‚¹500. We recommend testing a small deposit and test withdrawal right after.",
     },
     {
       q: "Which master exchanges are supported on BetVault?",
@@ -30,7 +30,7 @@ export default function FAQSection() {
     },
   ];
 
-  const waLink = getWhatsAppLink("Hi BetVault team, I have a question about betting IDs.");
+  const waLink = getWhatsAppLink("Hi BetVault team, I have a question about IDs.");
 
   return (
     <section className="py-20 px-4 sm:px-6 relative amethyst-bg-mesh">

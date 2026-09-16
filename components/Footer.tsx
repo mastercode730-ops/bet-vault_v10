@@ -1,10 +1,10 @@
-"use client";
+﻿"use client";
 import Link from 'next/link';
 import { Shield, Zap, Lock } from "lucide-react";
 import { getWhatsAppLink } from "@/lib/whatsapp";
 
 export default function Footer() {
-  const waLink = getWhatsAppLink("Hello BetVault, I want to create a new online betting ID.");
+  const waLink = getWhatsAppLink("Hello BetVault, I want to create a new online ID.");
 
   return (
     <footer className="bg-amethyst-950 border-t border-purple-500/20 text-slate-400 py-16 px-4 sm:px-6 relative z-10">
@@ -74,10 +74,10 @@ export default function Footer() {
               Verified Master Exchanges
             </h4>
             <div className="grid grid-cols-2 gap-2 text-xs font-mono">
-              <div className="p-2.5 rounded-xl bg-amethyst-900 border border-slate-800 text-cyan-300">✓ Diamond Exchange</div>
-              <div className="p-2.5 rounded-xl bg-amethyst-900 border border-slate-800 text-cyan-300">✓ SkyExchange</div>
-              <div className="p-2.5 rounded-xl bg-amethyst-900 border border-slate-800 text-cyan-300">✓ Lotus365</div>
-              <div className="p-2.5 rounded-xl bg-amethyst-900 border border-slate-800 text-cyan-300">✓ LaserBook</div>
+              <div className="p-2.5 rounded-xl bg-amethyst-900 border border-slate-800 text-cyan-300">âœ“ Diamond Exchange</div>
+              <div className="p-2.5 rounded-xl bg-amethyst-900 border border-slate-800 text-cyan-300">âœ“ SkyExchange</div>
+              <div className="p-2.5 rounded-xl bg-amethyst-900 border border-slate-800 text-cyan-300">âœ“ Lotus365</div>
+              <div className="p-2.5 rounded-xl bg-amethyst-900 border border-slate-800 text-cyan-300">âœ“ LaserBook</div>
             </div>
 
             <a
@@ -95,12 +95,12 @@ export default function Footer() {
 
         {/* Disclaimer & Copyright */}
         <div className="pt-8 border-t border-purple-500/20 text-center sm:flex sm:items-center sm:justify-between gap-4 text-[11px] text-slate-500 font-normal">
-          <p>© 2026 BetVault. All rights reserved. Play Responsibly. 18+ Only.</p>
+          <p>Â© 2026 BetVault. All rights reserved. Play Responsibly. 18+ Only.</p>
           <div className="flex items-center justify-center gap-4 mt-2 sm:mt-0 font-medium flex-wrap">
             <a href="/sitemap.xml" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-300 transition-colors">Sitemap</a>
-            <span>•</span>
+            <span>â€¢</span>
             <a href="/robots.txt" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-300 transition-colors">Robots.txt</a>
-            <span>•</span>
+            <span>â€¢</span>
             <span>Privacy Policy</span>
             <span>Terms of Service</span>
             <span>Responsible Gaming</span>

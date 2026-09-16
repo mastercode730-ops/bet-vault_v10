@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import WhatsAppFloat from "@/components/WhatsAppFloat";
@@ -11,9 +11,9 @@ export const metadata: Metadata = {
     apple: '/apple-icon.png',
   },
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://betvaultonline.com'),
-  title: "BetVault | Online Cricket Betting, Sports Betting & Casino",
-  description: "Create your instant online sports betting ID for IPL, Cricket, Football & Live Casino in 2 minutes. 5-minute instant UPI withdrawals and 24/7 human WhatsApp support.",
-  keywords: ["Betting ID", "Cricket Betting ID", "IPL Betting 2026", "Diamond Exchange ID", "SkyExchange ID", "Instant UPI Withdrawal"],
+  title: "BetVault | Online Cricket , Sports & Casino",
+  description: "Create your instant online sports ID for IPL, Cricket, Football & Live Casino in 2 minutes. 5-minute instant UPI withdrawals and 24/7 human WhatsApp support.",
+  keywords: ["ID", "Cricket ID", "IPL 2026", "Diamond Exchange ID", "SkyExchange ID", "Instant UPI Withdrawal"],
   verification: {
     google: "cMQV48otbl1KCDV0rc8NsQuqg6xQLBwPRbmCsdZlEGA",
   },

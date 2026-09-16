@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
@@ -19,7 +19,7 @@ export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const waLink = getWhatsAppLink(
-    "Hey BetVault, I want to create my instant betting ID now.",
+    "Hey BetVault, I want to create my instant ID now.",
   );
 
   useEffect(() => {
@@ -49,7 +49,7 @@ export default function Navbar() {
             </div>
             <span className="hidden sm:inline text-slate-600">|</span>
             <span className="hidden sm:inline text-neonMagenta-400 font-semibold">
-              ⚡ 5-Minute Instant UPI Withdrawal Engine
+              âš¡ 5-Minute Instant UPI Withdrawal Engine
             </span>
           </div>
 
